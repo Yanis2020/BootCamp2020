@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Suite" parallel="false">
+
+    <parameter name="cloud" value="false"/>
+    <parameter name="envName" value="browserstack"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browserVersion" value="85.0"/>
+    <parameter name="url" value="https://online.citi.com/US/login.do"/>
+
+
+    <parameter name="platform" value="windows"/>
+
+    <test name="Automation tests">
+        <classes>
+            <class name="com.citibanktest.HomePageValidation"/>
+            <class name="com.citibanktest.LoginPageValidation"/>
+            <class name="com.citibanktest.BankingPageValidation"/>
+            <class name="com.citibanktest.SearchForItemPageValidation"/>
+            <class name="com.citibanktest.AtmBranchPageValidation"/>
+        </classes>
+    </test>
+</suite>

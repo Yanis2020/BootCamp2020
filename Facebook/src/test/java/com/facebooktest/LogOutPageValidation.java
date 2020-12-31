@@ -37,9 +37,9 @@ public class LogOutPageValidation {
 
 
         LogOutPage logOutPage = PageFactory.initElements(driver, LogOutPage.class);
-        logOutPage.userEnterAnEmail("algeriancommunityatx@gmail.com");
+        logOutPage.userEnterAnEmail("");
         TestBase.sleepFor(2);
-        logOutPage.userEnterAPassword("Kabylie#2969");
+        logOutPage.userEnterAPassword("");
         TestBase.sleepFor(2);
         logOutPage.userClickOnLoginBtn();
         TestBase.sleepFor(2);

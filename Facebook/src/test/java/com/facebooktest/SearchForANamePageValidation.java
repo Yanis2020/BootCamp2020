@@ -36,9 +36,9 @@ public class SearchForANamePageValidation {
 
         SearchForANamePage searchForANamePage = PageFactory.initElements(driver, SearchForANamePage.class);
 
-        searchForANamePage.userEnterAnEmail("algeriancommunityatx@gmail.com");
+        searchForANamePage.userEnterAnEmail("");
         TestBase.sleepFor(2);
-        searchForANamePage.userEnterAPassword("Kabylie#2969");
+        searchForANamePage.userEnterAPassword("");
         TestBase.sleepFor(2);
         searchForANamePage.userClickOnLoginBtn();
         TestBase.sleepFor(7);

@@ -35,9 +35,9 @@ public class SendAFriendAndAddFriendRequestPageValidation {
 
         SendAFriendAndAddFriendRequestPage sendAFriendAndAddFriendRequestPage = PageFactory.initElements(driver, SendAFriendAndAddFriendRequestPage.class);
 
-        sendAFriendAndAddFriendRequestPage.userEnterAnEmail("algeriancommunityatx@gmail.com");
+        sendAFriendAndAddFriendRequestPage.userEnterAnEmail("");
         TestBase.sleepFor(2);
-        sendAFriendAndAddFriendRequestPage.userEnterAPassword("Kabylie#2969");
+        sendAFriendAndAddFriendRequestPage.userEnterAPassword("");
         TestBase.sleepFor(2);
         sendAFriendAndAddFriendRequestPage.userClickOnLoginBtn();
         TestBase.sleepFor(5);

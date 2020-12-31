@@ -9,15 +9,16 @@ public class LoginPageValidation extends TestBase {
 
     @Test
     public void validateLoginPage() {
+        Logi
 
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         loginPage.clickOnSignInButton();
         sleepFor(2);
-        loginPage.enterEmailButton("a.yanis27@yahoo.fr");
+        loginPage.enterEmailButton("");
         sleepFor(2);
         loginPage.clickOnContinueInButton();
         sleepFor(2);
-        loginPage.enterAPassword("Kabylie@2016");
+        loginPage.enterAPassword("");
         sleepFor(2);
         loginPage.validateSignInSubmitButton();
         sleepFor(2);

@@ -35,9 +35,9 @@ public class MakeCommentPageValidation {
 
         MakeCommentPage makeCommentPage = PageFactory.initElements(driver, MakeCommentPage.class);
 
-        makeCommentPage.userEnterAnEmail("algeriancommunityatx@gmail.com");
+        makeCommentPage.userEnterAnEmail("");
         TestBase.sleepFor(2);
-        makeCommentPage.userEnterAPassword("Kabylie#2969");
+        makeCommentPage.userEnterAPassword("");
         TestBase.sleepFor(2);
         makeCommentPage.userClickOnLoginBtn();
         TestBase.sleepFor(5);

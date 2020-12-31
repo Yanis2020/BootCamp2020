@@ -13,11 +13,11 @@ public class SignOutValidation extends TestBase {
         SignOutPage signOutPage = PageFactory.initElements(driver, SignOutPage.class);
         signOutPage.clickOnSignInButton();
         sleepFor(2);
-        signOutPage.enterEmailButton("a.yanis27@yahoo.fr");
+        signOutPage.enterEmailButton("");
         sleepFor(2);
         signOutPage.clickOnContinueInButton();
         sleepFor(2);
-        signOutPage.enterAPassword("Kabylie@2016");
+        signOutPage.enterAPassword("");
         sleepFor(2);
         signOutPage.validateSignInSubmitButton();
         sleepFor(2);

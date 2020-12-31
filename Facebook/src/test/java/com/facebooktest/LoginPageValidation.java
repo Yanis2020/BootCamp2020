@@ -10,9 +10,9 @@ public class LoginPageValidation extends TestBase {
     @Test(enabled = false)
     public void uerAbleToLoginIntoFacebookWebsite() {
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-        loginPage.userEnterAnEmail("algeriancommunityatx@gmail.com");
+        loginPage.userEnterAnEmail("");
         sleepFor(2);
-        loginPage.userEnterAPassword("Kabylie#2969");
+        loginPage.userEnterAPassword("");
         sleepFor(2);
         loginPage.userClickOnLoginBtn();
         sleepFor(5);
